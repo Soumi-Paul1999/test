@@ -8,7 +8,7 @@ const {
 } = require("../controllers/userController");
 const router = express.Router();
 
-// update
+// update2
 
 router.get("/", getAllUsers);
 router.get("/:id", getOneUsers);
